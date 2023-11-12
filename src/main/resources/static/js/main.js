@@ -1,3 +1,4 @@
+import { control_width } from '/js/exchange/exchange.js';
 /**
 * Template Name: NiceAdmin
 * Updated: Sep 18 2023 with Bootstrap v5.3.2
@@ -43,7 +44,8 @@
    */
   if (select('.toggle-sidebar-btn')) {
     on('click', '.toggle-sidebar-btn', function(e) {
-      select('body').classList.toggle('toggle-sidebar')
+      select('body').classList.toggle('toggle-sidebar');
+      control_width();
     })
   }
 

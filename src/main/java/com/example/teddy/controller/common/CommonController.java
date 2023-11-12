@@ -18,7 +18,7 @@ public class CommonController {
     public String index() {
 //        List<UserDto> list = userService.userList();
 //        System.out.println("list = " + list);
-        return "index.html";
+        return "index";
     }
 
 }
