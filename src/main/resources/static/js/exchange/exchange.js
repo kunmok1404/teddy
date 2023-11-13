@@ -29,9 +29,6 @@ function getExchangeInfo(DATE) {
     })
     // HTTP 요청이 성공하면 요청한 데이터가 done() 메소드로 전달됨.
     .done(function(arr) {
-        // $("<h1>").text(json.title).appendTo("body");
-        // $("<div class=\"content\">").html(json.html).appendTo("body");
-        console.log(arr);
         if(arr.length < 1) {
             return;
         }
